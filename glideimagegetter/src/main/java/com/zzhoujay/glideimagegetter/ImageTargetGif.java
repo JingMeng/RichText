@@ -1,9 +1,9 @@
-package com.zzhoujay.glideimagegetter;
+﻿package com.zzhoujay.glideimagegetter;
 
 import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -99,3 +99,4 @@ class ImageTargetGif extends ImageTarget<GifDrawable> implements Drawable.Callba
 
     }
 }
+

@@ -1,8 +1,8 @@
-package zhou.demo;
+﻿package zhou.demo;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -32,11 +32,11 @@ public class DebugActivity extends Activity {
         TextView textView = (TextView) findViewById(R.id.test_text);
         ImageView imageView = (ImageView) findViewById(R.id.image_view);
 
-        String test_text_2 = "<p>我是文本内容 <img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' /> 下一个" +
-                "<img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' />似懂非懂撒范德萨咖啡机盛大开放惊世毒妃</p><p>我是文本内容 <img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' /> 下一个" +
-                "<img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' />似懂非懂撒范德萨咖啡机盛大开放惊世毒妃</p><p>我是文本内容 <img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' /> 下一个" +
-                "<img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' />似懂非懂撒范德萨咖啡机盛大开放惊世毒妃</p><p>我是文本内容 <img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' /> 下一个" +
-                "<img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' />似懂非懂撒范德萨咖啡机盛大开放惊世毒妃</p><img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' />似懂非懂撒范德萨咖啡机盛大开放惊世毒妃";
+        String test_text_2 = "<p>鎴戞槸鏂囨湰鍐呭 <img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' /> 涓嬩竴涓? +
+                "<img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' />浼兼噦闈炴噦鎾掕寖寰疯惃鍜栧暋鏈虹洓澶у紑鏀炬儕涓栨瘨濡?/p><p>鎴戞槸鏂囨湰鍐呭 <img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' /> 涓嬩竴涓? +
+                "<img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' />浼兼噦闈炴噦鎾掕寖寰疯惃鍜栧暋鏈虹洓澶у紑鏀炬儕涓栨瘨濡?/p><p>鎴戞槸鏂囨湰鍐呭 <img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' /> 涓嬩竴涓? +
+                "<img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' />浼兼噦闈炴噦鎾掕寖寰疯惃鍜栧暋鏈虹洓澶у紑鏀炬儕涓栨瘨濡?/p><p>鎴戞槸鏂囨湰鍐呭 <img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' /> 涓嬩竴涓? +
+                "<img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' />浼兼噦闈炴噦鎾掕寖寰疯惃鍜栧暋鏈虹洓澶у紑鏀炬儕涓栨瘨濡?/p><img src='http://wx1.sinaimg.cn/mw690/eaaf2affly1fihvjpekzwj21el0qotfq.jpg' />浼兼噦闈炴噦鎾掕寖寰疯惃鍜栧暋鏈虹洓澶у紑鏀炬儕涓栨瘨濡?;
 
         String test_text_1 = "<p><h1>Test1</h1><img src='file:///android_asset/doge.jpg'></p>";
 
@@ -62,3 +62,4 @@ public class DebugActivity extends Activity {
 
     }
 }
+

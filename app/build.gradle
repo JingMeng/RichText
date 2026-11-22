@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "25.0.2"
+    namespace 'zhou.demo'
+    compileSdk 34
     defaultConfig {
         applicationId "zhou.demo"
-        minSdkVersion 15
-        targetSdkVersion 26
+        minSdk 15
+        targetSdk 34
         versionCode 1
         versionName "1.0"
     }
@@ -15,6 +15,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    
     }
     lintOptions {
         abortOnError false
@@ -24,12 +25,16 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    compile 'com.android.support:recyclerview-v7:26.1.0'
-    compile project(':richtext')
-    compile project(':okhttpimagedownloader')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation project(':richtext')
+    implementation project(':okhttpimagedownloader')
     //    compile 'com.zzhoujay.richtext:richtext:2.6.0'
     //    compile 'com.zzhoujay.okhttpimagedownloader:OkHttpImageDownloader:1.0.0'
 }
+
+
+
+
